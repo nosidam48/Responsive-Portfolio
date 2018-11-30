@@ -1,0 +1,29 @@
+#gif {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+
+h4 {
+    border-bottom: 2px black solid;
+}
+
+.nav-wrapper {
+   background-color: #1b5e20;
+}
+
+.btn {
+    background-color: #1b5e20;
+    margin-left: 10px;
+}
+
+#formo {
+    color: black;
+    background-color: white;
+    padding: 30px;
+}
