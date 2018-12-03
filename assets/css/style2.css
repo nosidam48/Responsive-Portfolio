@@ -27,3 +27,31 @@ h4 {
     background-color: white;
     padding: 30px;
 }
+
+.card-image {
+    width: 480px;
+    height: 230px;
+}
+
+#rutgers {
+    width: 480px;
+    height: 230px;
+}
+
+#pic {
+    width: 184px;
+}
+
+body {
+    background-color: dodgerblue;
+}
+
+#pad {
+    padding-right: 13px;
+    padding-left: 0px;
+}
+
+#mePic {
+    max-width: 25%;
+    padding: 3px;
+}
