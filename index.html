@@ -1,55 +1,62 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About Me</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style2.css" />
-    <script src="main.js"></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Me</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style2.css" />
 </head>
 
-    <nav class="green-darken-4">
-            <div class="nav-wrapper green-darken-4">
-              <a href="#" class="brand-logo">Madison Tift</a>
-              <ul id="nav-mobile" class="right hide-on-sm-and-down">
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="index.html">About</a></li>
-              </ul>
-            </div>
-          </nav>
+  <nav class="green-darken-4">
+    <div class="nav-wrapper green-darken-4">
+      <a href="#" id="mad" class="brand-logo">Madison Tift</a>
+      <ul id="nav-mobile" class="right hide-on-small-and-down">
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="index.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <div id="About" class="container">
-    
-    <div class="row">
-            <div class="col s12 m12 lg12">
-                    <h4 class="header">About Me</h4>
-                    <div class="card horizontal">
-                      <div class="card-image" id="mePic">
-                        <img class="image" id="pic" src="https://pbs.twimg.com/media/DIXlyJRUQAA3ne4.jpg">
-                      </div>
-                      <div class="card-stacked">
-                        <div class="card-content">
-                                <p>Welcome to my abridged biography! While I am relatively new to coding, my 
-                                        unique background makes me uniquely qualified to problem solve and create
-                                        at a high level. I received a stellar liberal arts education from Lawrence 
-                                        University. There I majored in Anthropology and Film with a minor in vocal
-                                        music.
-                                    </p>
-                                <br>
-                                    <p>In addition to my education I have also made travel a priority in my life.
-                                        I have traveled extensively both within the United States and abroad. 
-                                        These travels have enabled me to see the world from many different 
-                                        perspectives. I hope to be able to bring these experiences with me into
-                                        my explorations of coding.
-                                    </p>
-                        </div>
-                        </div>
-                        </div>
-                        </div>
-    </div> 
-</body>
+  <ul id="slide-out" class="sidenav">
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="index.html">About</a></li>
+  </ul>
+    <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-med-and-up"><i class="material-icons">menu</i></a>
+
+
+<div id="About" class="container">
+
+  <div class="row">
+    <div class="col s12 m12 lg12">
+      <h4 class="header">About Me</h4>
+      <div class="card horizontal">
+        <div class="card-image" id="mePic">
+          <img class="image" id="pic" src="assets/images/IMG_7784.jpg">
+        </div>
+        <div class="card-stacked">
+          <div class="card-content">
+            <p>Full stack web developer specializing in Javascript, Node.js and React with a passion for programming
+              logic. Participated in the UCF Full-Stack bootcamp to hone talents. Enjoys utilizing unique skill-set
+              gained from a liberal arts education as well as various jobs in customer service, including management
+              roles, in order to problem solve efficiently and integrate seamlessly into collaborative roles.
+              Passionate about finding different ways to attack problems and collaborating with others in order to
+              learn quickly and optimize output.
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/javascript/portfolio.js"></script>
+  </body>
+
 </html>

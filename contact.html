@@ -1,85 +1,60 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style2.css" />
-    <script src="main.js"></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style2.css" />
 </head>
 
-    <nav>
-            <div class="nav-wrapper">
-              <a href="#" class="brand-logo">Madison Tift</a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="index.html">About</a></li>
-              </ul>
-            </div>
-          </nav>
-<!-- 
-    <div id="Header">
 
-    <h1>Madison Tift</h1>
-
-    <button class="button" id="button-1" type="button">Contact</button>
-
-    <button class="button" id="button-2" type="button" onclick="location.href='portfolio.html'">Portfolio</button>
-
-    <button class="button" id="button-3" type="button" onclick="location.href='index.html'">About</button>
-
-    </div> -->
-
-    <div id="Contact" class="container">
-
-        <h3>Contact</h3>
-            <div class="row">
-                    <form id="formo" class="col s12">
-                      <div class="row">
-                        <div class="input-field col s6">
-                          <input placeholder="Name" id="name" type="text" class="validate">
-                          <label for="name">Name</label>
-                        </div>
-                      </div>
-            <div class="row">
-                    <div class="input-field col s12">
-                      <input id="email" type="email" class="validate">
-                      <label for="email">Email</label>
-                    </div>
-                  </div>
-                  <div class="row">
-                        <div class="input-field col s12">
-                          <textarea id="textarea1" class="materialize-textarea"></textarea>
-                          <label for="textarea1">Textarea</label>
-                        </div>
-                      </div>
-                      <div class="row">
-                      <button class="btn waves-effect waves-light" type="submit" name="action">Submit
-                          </button>
-                        </div>
-                </form>
-              </div>
     
-        <!-- <h2>Contact</h2>
+<nav>
+  <div class="nav-wrapper">
+    <a href="#" id="mad" class="brand-logo">Madison Tift</a>
+    <ul id="nav-mobile" class="right hide-on-small-and-down">
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="index.html">About</a></li>
+    </ul>
+  </div>
+</nav>
 
-        <form>
-            Name <br>
-            <input type="text" name="name"> <br>
-            Email <br>
-            <input type="text" name="email"> <br>
-            Comments <br>
-            <textarea class="com" rows="4" cols="50" name="comment"></textarea> <br>
-            <br>
-            <input class="submit" type="submit" value="submit"> 
-        </form> -->
+<ul id="slide-out" class="sidenav">
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="index.html">About</a></li>
+</ul>
+  <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-med-and-up"><i class="material-icons">menu</i></a>
 
-    </div>    
-    
-    
+
+
+<div id="Contact" class="container">
+
+  <h4>Contact</h4>
+  <div>
+    <ul>
+        <li> <a href="https://github.com/nosidam48" target="_blank">
+          <img class="image hoverable" id="git" src="assets/images/GitHub_Logo_White.png"></li>
+          <br>
+        <li> <a href="https://www.linkedin.com/in/madison-tift-281843170/" target="_blank">
+          <img class="image hoverable" id="linked" src="assets/images/Logo-White-94px-TM.png"></li>
+          <br>  
+      <li class="data">Email: madison.tift68@gmail.com</li>
+      <li class="data">Phone: 1-206-271-0774</li>
+      <li><a href="assets/images/Resume.pdf" id="resume" target="_blank">Link to Resume</a></li>  
+    </ul>
+  </div>
+</div>
+
+<script src="assets/javascript/portfolio.js"></script>
 
 </body>
+
 </html>

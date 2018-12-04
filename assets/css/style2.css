@@ -10,7 +10,8 @@
 }
 
 h4 {
-    border-bottom: 2px black solid;
+    border-bottom: 2px white solid;
+    color: white;
 }
 
 .nav-wrapper {
@@ -28,16 +29,6 @@ h4 {
     padding: 30px;
 }
 
-.card-image {
-    width: 480px;
-    height: 230px;
-}
-
-#rutgers {
-    width: 480px;
-    height: 230px;
-}
-
 #pic {
     width: 184px;
 }
@@ -46,12 +37,66 @@ body {
     background-color: dodgerblue;
 }
 
-#pad {
-    padding-right: 13px;
-    padding-left: 0px;
-}
-
 #mePic {
     max-width: 25%;
     padding: 3px;
+}
+
+li {
+    color: white;
+}
+
+#mad {
+    padding-left: 5px;
+}
+
+.material-icons {
+    color: white;
+    position: relative;
+    bottom: 40px;
+    padding-left: 10px;
+}
+
+#github {
+    color: white;
+}
+
+#linked {
+    height: 55px;
+    padding: 10px;
+    border: 2px white solid;
+    border-radius: 30%;
+    color: white;  
+}
+
+#git {
+    height: 55px;
+    padding: 5px;
+    border: 2px white solid;
+    border-radius: 30%
+}
+
+.data {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#resume {
+    margin-top: 20px;
+    color: white;
+    border: 2px white solid;
+    border-radius: 30%;
+    height: 40px;
+    padding: 5px;
+}
+
+#newLink {
+    text-align: center;
+    padding: 0px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+#oldLink {
+    color: white;
 }

@@ -6,96 +6,125 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
-
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style2.css" />
 
 </head>
 
 
 
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Madison Tift</a>
-            <ul id="nav-mobile" class="right hide-on-sm-and-down">
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="index.html">About</a></li>
-            </ul>
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" id="mad" class="brand-logo">Madison Tift</a>
+        <ul id="nav-mobile" class="right hide-on-small-and-down">
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="index.html">About</a></li>
+        </ul>
+    </div>
+</nav>
+<ul id="slide-out" class="sidenav">
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="index.html">About</a></li>
+    </ul>
+      <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-med-and-up"><i class="material-icons">menu</i></a>
+
+<div id="port" class="container">
+
+    <h4>Portfolio</h4>
+    <div class="row">
+        <div class="col s12 m6 pad" id="pad">
+            <div class="card">
+                <div class="card-image hoverable">
+                    <a href="https://nosidam48.github.io/TriviaGame/" target="_blank">
+                        <img class="image" id="trivia" src="assets/images/Triva.png">
+                        <span class="card-title but center-align" id="gif">Trivia Game</span>
+                </div>
+                <div class="card-content" id="newLink">
+                    <a href="https://github.com/nosidam48/TriviaGame" target="_blank">
+                        <p id="oldLink">Trivia Game Github Repo</p>
+                </div>
+            </div>
         </div>
-    </nav>
-
-    <div id="port" class="container">
-
-        <h4>Portfolio</h4>
-        <div class="row">
-            <div class="col s12 m6 pad" id="pad">
-                <div class="card">
-                    <div class="card-image hoverable">
-                        <a href="https://nosidam48.github.io/Train-Time/" target="_blank">
-                            <img class="image" id="rutgers" src="assets/images/TrainTime.png">
-                            <span class="card-title but center-align" id="gif">Train Scheduler</span>
-                    </div>
+        <div class="col s12 m6 pad" id="pad">
+            <div class="card">
+                <div class="card-image hoverable">
+                    <a href="https://asharman.github.io/StudyHall/" target="_blank">
+                        <img class="image" id="rock" src="assets/images/StudyHall.png">
+                        <span class="card-title but center-align" id="gif">Study Hall</span>
                 </div>
+                <div class="card-content" id="newLink">
+                        <a href="https://github.com/asharman/StudyHall" target="_blank">
+                            <p id="oldLink">Study Hall Github Repo</p>
+                    </div>
             </div>
-                <div class="col s12 m6 pad" id="pad">
-                    <div class="card">
-                        <div class="card-image hoverable">
-                            <a href="https://asharman.github.io/StudyHall/" target="_blank">
-                                <img class="image" id="rock" src="assets/images/StudyHall.png">
-                                <span class="card-title but center-align" id="gif">Study Hall</span>
-                        </div>
-                    </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m6 pad" id="pad">
+            <div class="card">
+                <div class="card-image hoverable">
+                    <a href="https://nosidam48.github.io/Giftastic/" target="_blank">
+                        <img class="image" id="hangman" src="assets/images/giftastic.png">
+                        <span class="card-title but center-align" id="gif">Giftastic</span>
                 </div>
+                <div class="card-content" id="newLink">
+                        <a href="https://github.com/nosidam48/Giftastic" target="_blank">
+                            <p id="oldLink">Giftastic Github Repo</p>
+                    </div>
             </div>
-            <div class="row">
-                <div class="col s12 m6 pad" id="pad">
-                    <div class="card">
-                        <div class="card-image hoverable">
-                            <a href="https://nosidam48.github.io/Giftastic/" target="_blank">
-                                <img class="image" id="hangman" src="assets/images/giftastic.png">
-                                <span class="card-title but center-align" id="gif">Giftastic</span>
-                        </div>
-                        </div>
-                    </div>
-                    <div class="col s12 m6 pad" id="pad">
-                        <div class="card">
-                            <div class="card-image hoverable">
-                                <a href="https://nosidam48.github.io/TriviaGame/" target="_blank">
-                                    <img class="image" id="trivia" src="assets/images/Triva.png">
-                                    <span class="card-title but center-align" id="gif">Trivia Game</span>
-                            </div>
-                        </div>
-                    </div>
+        </div>
+        <div class="col s12 m6 pad" id="pad">
+            <div class="card">
+                <div class="card-image hoverable">
+                    <a href="https://nosidam48.github.io/RPG-Game/" target="_blank">
+                        <img class="image" id="rpg" src="assets/images/RPGgame.png">
+                        <span class="card-title but center-align" id="gif">RPG game</span>
                 </div>
-                <div class="row">
-                    <div class="col s12 m6 pad" id="pad">
-                        <div class="card">
-                            <div class="card-image hoverable">
-                                <a href="https://nosidam48.github.io/RPG-Game/" target="_blank">
-                                    <img class="image" id="rpg" src="assets/images/RPGgame.png">
-                                    <span class="card-title but center-align" id="gif">RPG game</span>
-                            </div>
-                        </div>
+                <div class="card-content" id="newLink">
+                        <a href="https://github.com/nosidam48/RPG-Game" target="_blank">
+                            <p id="oldLink">RPG Game Github Repo</p>
                     </div>
-                    <div class="col s12 m6 pad" id="pad">
-                        <div class="card">
-                            <div class="card-image hoverable">
-                                <a href="https://nosidam48.github.io/Psychic-Game/" target="_blank">
-                                    <img class="image" id="rutgers" src="assets/images/Psychic.png">
-                                    <span class="card-title but center-align" id="gif">Psychic Game</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m6 pad" id="pad">
+            <div class="card">
+                <div class="card-image hoverable">
+                    <a href="https://nosidam48.github.io/Train-Time/" target="_blank">
+                        <img class="image" id="rutgers" src="assets/images/TrainTime.png">
+                        <span class="card-title but center-align" id="gif">Train Scheduler</span>
+                </div>
+                <div class="card-content" id="newLink">
+                        <a href="https://github.com/nosidam48/Train-Time" target="_blank">
+                            <p id="oldLink">Train Scheduler Github Repo</p>
+                    </div>
+            </div>
+        </div>
+        <div class="col s12 m6 pad" id="pad">
+            <div class="card">
+                <div class="card-image hoverable">
+                    <a href="https://nosidam48.github.io/Psychic-Game/" target="_blank">
+                        <img class="image" id="rutgers" src="assets/images/Psychic.png">
+                        <span class="card-title but center-align" id="gif">Psychic Game</span>
+                </div>
+                <div class="card-content" id="newLink">
+                        <a href="https://github.com/nosidam48/Psychic-Game" target="_blank">
+                            <p id="oldLink">Psychic Github Repo</p>
+                    </div>
+            </div>
+        </div>
+    </div>
 
-            <script src="assets/javascript/portfolio.js"></script>
+
+</div>
+
+<script src="assets/javascript/portfolio.js"></script>
 </body>
 
 </html>
