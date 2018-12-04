@@ -12,6 +12,7 @@
 h4 {
     border-bottom: 2px white solid;
     color: white;
+    font-family: "Ubuntu", sans-serif; 
 }
 
 .nav-wrapper {
@@ -34,7 +35,13 @@ h4 {
 }
 
 body {
-    background-color: dodgerblue;
+    background-image: linear-gradient(to right top, #660066, #721d89, #7835ae, #764dd6, #6666ff);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 500px;
+    
+
 }
 
 #mePic {
@@ -48,6 +55,7 @@ li {
 
 #mad {
     padding-left: 5px;
+    font-family: "Ubuntu", sans-serif; 
 }
 
 .material-icons {
@@ -107,4 +115,9 @@ li {
 
 #mainBtn {
     color: white;
+    font-family: "Ubuntu", sans-serif; 
+}
+
+#font {
+    font-family: "Ubuntu", sans-serif;
 }
